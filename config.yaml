@@ -1,0 +1,11 @@
+name: mingo456
+version: 3
+
+libraries:
+- name: webpy 
+  version: "0.36"
+
+- name: lxml
+  version: "2.3.4"
+
+...
