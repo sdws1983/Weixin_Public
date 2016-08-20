@@ -1,0 +1,16 @@
+$def with (toUser,fromUser,createTime,content)
+<xml>
+<ToUserName><![CDATA[$toUser]]></ToUserName>
+<FromUserName><![CDATA[$fromUser]]></FromUserName>
+<CreateTime>$createTime</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content>$content</Content>
+</xml>
+<xml>
+<ToUserName><![CDATA[toUser]]></ToUserName>
+<FromUserName><![CDATA[FromUser]]></FromUserName>
+<CreateTime>123456789</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[EVENT]]></Event>
+<EventKey><![CDATA[EVENTKEY]]></EventKey>
+</xml>
